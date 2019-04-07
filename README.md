@@ -7,14 +7,95 @@ Also called network representation learning, graph embedding, knowledge embeddin
 
 The task is to learn the representations of the vertices from a given network.
 
+CALL FOR HELP: I'm planning to re-organize the papers with clear classification index in the near future. Please feel free to submit a commit if you find any interesting related work:)
+
 <img src="NE.png" width="480">
 
 # Paper References with the implementation(s)
+
+- **REGAL**
+  - REGAL: Representation Learning-based Graph Alignment. International Conference on Information and Knowledge Management, CIKM'18
+  - [[arxiv]](https://arxiv.org/pdf/1802.06257.pdf)
+  - [[paper]](https://dl.acm.org/citation.cfm?id=3271788)
+  - [[code]](https://github.com/GemsLab/REGAL)
+- **PyTorch Geometric**
+  - Fast Graph Representation Learning With PyTorch Geometric
+  - [[paper]](https://arxiv.org/pdf/1903.02428.pdf)
+  - [[Python PyTorch]](https://github.com/rusty1s/pytorch_geometric)
+- **TuckER**
+  - Tensor Factorization for Knowledge Graph Completion, Arxiv'19
+  - [[paper]](https://arxiv.org/pdf/1901.09590.pdf)
+  - [[Python PyTorch]](https://github.com/ibalazevic/TuckER)
+- **HypER**
+  - Hypernetwork Knowledge Graph Embeddings, Arxiv'18
+  - [[paper]](https://arxiv.org/pdf/1808.07018.pdf)
+  - [[Python PyTorch]](https://github.com/ibalazevic/HypER)
+- **GWNN**
+  - Graph Wavelet Neural Network, ICLR'19
+  - [[paper]](https://openreview.net/forum?id=H1ewdiR5tQ)
+  - [[Python PyTorch]](https://github.com/benedekrozemberczki/GraphWaveletNeuralNetwork)
+  - [[Python TensorFlow]](https://github.com/Eilene/GWNN)
+- **APPNP**
+  - Combining Neural Networks with Personalized PageRank for Classification on Graphs, ICLR'19
+  - [[paper]](https://arxiv.org/abs/1810.05997)
+  - [[Python PyTorch]](https://github.com/benedekrozemberczki/APPNP)
+  - [[Python TensorFlow]](https://github.com/klicperajo/ppnp)
+- **role2vec**
+  - Learning Role-based Graph Embeddings, IJCAI'18
+  - [[paper]](https://arxiv.org/pdf/1802.02896.pdf)
+  - [[Python]](https://github.com/benedekrozemberczki/role2vec)
+- **AttentionWalk**
+  - Watch Your Step: Learning Node Embeddings via Graph Attention, NIPS'18
+  - [[paper]](https://arxiv.org/pdf/1710.09599.pdf)
+  - [[Python]](http://sami.haija.org/graph/context)
+  - [[Python PyTorch]](https://github.com/benedekrozemberczki/AttentionWalk)
+  - [[Python TensorFlow]](https://github.com/google-research/google-research/tree/master/graph_embedding/watch_your_step/)
+- **GAT**
+  - Graph Attention Networks, ICLR'18
+  - [[paper]](https://arxiv.org/pdf/1710.10903.pdf)
+  - [[Python PyTorch]](https://github.com/Diego999/pyGAT)
+  - [[Python TensorFlow]](https://github.com/PetarV-/GAT)
+- **SINE**
+  - SINE: Scalable Incomplete Network Embedding, ICDM'18
+  - [[paper]](https://github.com/benedekrozemberczki/SINE/blob/master/paper.pdf)
+  - [[Python PyTorch]](https://github.com/benedekrozemberczki/SINE/)
+  - [[C++]](https://github.com/daokunzhang/SINE)
+- **SGCN**
+  - Signed Graph Convolutional Network, ICDM'18
+  - [[paper]](https://github.com/benedekrozemberczki/SGCN/blob/master/sgcn.pdf)
+  - [[Python]](https://github.com/benedekrozemberczki/SGCN)
+- **TENE**
+  - Enhanced Network Embedding with Text Information, ICPR'18
+  - [[paper]](https://github.com/benedekrozemberczki/TENE/blob/master/tene_paper.pdf)
+  - [[Python]](https://github.com/benedekrozemberczki/TENE) 
+- **DANMF**
+  - Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection, CIKM'18
+  - [[paper]](https://smartyfh.com/Documents/18DANMF.pdf)
+  - [[Python]](https://github.com/benedekrozemberczki/DANMF)
+  - [[Matlab]](https://github.com/smartyfh/DANMF)  
+- **BANE**
+  - Binarized Attributed Network Embedding, ICDM'18
+  - [[paper]](https://www.researchgate.net/publication/328688614_Binarized_Attributed_Network_Embedding)
+  - [[Python]](https://github.com/benedekrozemberczki/BANE)
+  - [[Matlab]](https://github.com/ICDM2018-BANE/BANE)
+- **GCN Insights**
+  - Deeper Insights into Graph Convolutional Networks for Semi-Supervised Learning, AAAI'18
+  - [[Project]](https://liqimai.github.io/blog/AAAI-18/)
+  - [[code]](https://github.com/liqimai/gcn/tree/AAAI-18/)
+- **PCTADW**
+  - Learning Embeddings of Directed Networks with Text-Associated Nodes---with Applications in Software Package Dependency Networks
+  - [[paper]](https://arxiv.org/pdf/1809.02270.pdf)
+  - [[Python]](https://github.com/shudan/PCTADW)
+  - [[dataset]](https://doi.org/10.5281/zenodo.1410669)
+- **LGCN**
+  - Large-Scale Learnable Graph Convolutional Networks, KDD'18
+  - [[paper]](http://www.kdd.org/kdd2018/accepted-papers/view/large-scale-learnable-graph-convolutional-networks)
+  - [[Python]](https://github.com/HongyangGao/LGCN)
 - **AspEm**
   - AspEm: Embedding Learning by Aspects in Heterogeneous Information Networks
   - [[paper]](http://yushi2.web.engr.illinois.edu/sdm18.pdf)
   - [[Python]](https://github.com/ysyushi/aspem)
-- **Walklet**
+- **Walklets**
   - Don't Walk, Skip! Online Learning of Multi-scale Network Embeddings
   - [[paper]](https://arxiv.org/pdf/1605.02115.pdf)
   - [[Python]](https://github.com/benedekrozemberczki/walklets)  
@@ -26,6 +107,7 @@ The task is to learn the representations of the vertices from a given network.
   - FSCNMF: Fusing Structure and Content via Non-negative Matrix Factorization for Embedding Information Networks
   - [[paper]](https://arxiv.org/abs/1804.05313)
   - [[Python]](https://github.com/sambaranban/FSCNMF)  
+  - [[Python]](https://github.com/benedekrozemberczki/FSCNMF)
 - **SIDE**
   - SIDE: Representation Learning in Signed Directed Networks
   - [[paper]](https://datalab.snu.ac.kr/side/resources/side.pdf)
@@ -71,6 +153,10 @@ The task is to learn the representations of the vertices from a given network.
   - Decagon, Graph Neural Network for Multirelational Link Prediction 
   - [[Arxiv]](https://arxiv.org/abs/1802.00543) [[SNAP]](http://snap.stanford.edu/decagon/) [[ISMB 2018]]
   - [[Python]](https://github.com/marinkaz/decagon)    
+- **DHNE**
+  - Structural Deep Embedding for Hyper-Networks
+  - [[AAAI 2018]](http://nrl.thumedialab.com/Structural-Deep-Embedding-for-Hyper-Networks)[[Arxiv]](https://arxiv.org/abs/1711.10146)
+  - [[Python]](https://github.com/tadpole/DHNE)  
 - **Ohmnet**
   - Feature Learning in Multi-Layer Networks 
   - [[Arxiv]](https://arxiv.org/abs/1707.04638) [[SNAP]](http://snap.stanford.edu/ohmnet/) 
@@ -108,11 +194,13 @@ The task is to learn the representations of the vertices from a given network.
   - [[code]](https://github.com/ntumslab/PRUNE)
 - **ASNE**
   - Attributed Social Network Embedding, arxiv'17
-  - [[arxiv]](https://arxiv.org/abs/1706.01860) [[Python]](https://github.com/lizi-git/ASNE)
+  - [[arxiv]](https://arxiv.org/abs/1706.01860)
+  - [[Python]](https://github.com/lizi-git/ASNE)
+  - [[Fast Python]](https://github.com/benedekrozemberczki/ASNE)
 - **GraphWave**
   - [Spectral Graph Wavelets for Structural Role Similarity in Networks](http://snap.stanford.edu/graphwave/), 
   - [[arxiv]](https://arxiv.org/abs/1710.10321), [[ICLR 2018 OpenReview]](https://openreview.net/forum?id=rytstxWAW)
-  - [[Python]](https://github.com/snap-stanford/graphwave)
+  - [[Python]](https://github.com/snap-stanford/graphwave) [[faster version]](https://github.com/benedekrozemberczki/GraphWaveMachine)
 - **StarSpace**
   - [StarSpace: Embed All The Things!](https://arxiv.org/pdf/1709.03856), arxiv'17
   - [[code]](https://github.com/facebookresearch/Starspace)
@@ -125,6 +213,9 @@ The task is to learn the representations of the vertices from a given network.
 - **ComE**
   - Learning Community Embedding with Community Detection and Node Embedding on Graphs, CIKM'17
   - [[Python]](https://github.com/andompesta/ComE)
+- **BoostedNE**
+  - [Multi-Level Network Embedding with Boosted Low-Rank Matrix Approximation](https://arxiv.org/abs/1808.08627), '18
+  - [[Python]](https://github.com/benedekrozemberczki/BoostedFactorization)  
 - **M-NMF**
   - Community Preserving Network Embedding, AAAI'17
   - [[Python]](https://github.com/benedekrozemberczki/M-NMF)
@@ -134,6 +225,9 @@ The task is to learn the representations of the vertices from a given network.
 - **ICE**
   - [ICE: Item Concept Embedding via Textual Information](http://dl.acm.org/citation.cfm?id=3080807), SIGIR'17
   - [[demo]](https://cnclabs.github.io/ICE/) [[code]](https://github.com/cnclabs/ICE)
+- **GuidedHeteEmbedding**
+  - Task-guided and path-augmented heterogeneous network embedding for author identification, WSDM'17
+  - [[paper]](https://arxiv.org/pdf/1612.02814.pdf) [[code]](https://github.com/chentingpc/GuidedHeteEmbedding)
 - **metapath2vec**
   - metapath2vec: Scalable Representation Learning for Heterogeneous Networks, KDD'17
   - [[paper]](https://www3.nd.edu/~dial/publications/dong2017metapath2vec.pdf) [[project website]](https://ericdongyx.github.io/metapath2vec/m2v.html)
@@ -193,7 +287,7 @@ The task is to learn the representations of the vertices from a given network.
   - [[paper]](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2015_transr.pdf) [[C++]](https://github.com/thunlp/KB2E)  [[faster version]](https://github.com/thunlp/Fast-TransX)
 - **TADW**
   - [Network Representation Learning with Rich Text Information](http://dl.acm.org/citation.cfm?id=2832542), IJCAI'15
-  - [[paper]](https://www.ijcai.org/Proceedings/15/Papers/299.pdf) [[Matlab]](https://github.com/thunlp/tadw)
+  - [[paper]](https://www.ijcai.org/Proceedings/15/Papers/299.pdf) [[Matlab]](https://github.com/thunlp/tadw) [[Python]](https://github.com/benedekrozemberczki/TADW)
 - **DeepWalk**
   - [DeepWalk: Online Learning of Social Representations](http://dl.acm.org/citation.cfm?id=2623732), KDD'14
   - [[arxiv]](https://arxiv.org/abs/1403.6652) [[Python]](https://github.com/phanein/deepwalk)  [[C++]](https://github.com/xgfs/deepwalk-c)
@@ -203,6 +297,13 @@ The task is to learn the representations of the vertices from a given network.
 
 
 # Paper References
+
+[A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596), arxiv'19
+
+[Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf), NIPS'18
+
+**SEMAC**, [Link Prediction via Subgraph Embedding-Based Convex Matrix Completion](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16442), AAAI 2018, [Slides](https://www.slideshare.net/gdm3003/semac-graph-node-embeddings-for-link-prediction)
+
 **MILE**, [MILE: A Multi-Level Framework for Scalable Graph Embedding](https://arxiv.org/pdf/1802.09612.pdf), arxiv'18
 
 **MetaGraph2Vec**, [MetaGraph2Vec: Complex Semantic Path Augmented Heterogeneous Network Embedding](https://arxiv.org/abs/1803.02533)
@@ -223,8 +324,6 @@ Learning](https://arxiv.org/abs/1804.06111)
 [Walk-Steered Convolution for Graph Classification](https://arxiv.org/abs/1804.05837)
 
 [Deep Feature Learning for Graphs](https://arxiv.org/abs/1704.08829), arxiv'17
-
-[Watch Your Step: Learning Graph Embeddings Through Attention](https://arxiv.org/abs/1710.09599), arxiv'17
 
 [Fast Linear Model for Knowledge Graph Embeddings](https://arxiv.org/abs/1710.10881), arxiv'17
 
@@ -270,6 +369,8 @@ Learning](https://arxiv.org/abs/1804.06111)
 # Related List
 
 [awesome-graph-embedding](https://github.com/benedekrozemberczki/awesome-graph-embedding)
+
+[awesome-community-detection](https://github.com/benedekrozemberczki/awesome-community-detection)
 
 [awesome-embedding-models](https://github.com/Hironsan/awesome-embedding-models)
 
